@@ -5,7 +5,7 @@ __all__ = [
 ]
 
 
-def login ( username, password):
+def login (**kwargs):
     """
     IMPLEMENTATION LOGIC - FETCH FROM DB 
     THE HASH AND USERNAME TO VALIDATE THE
